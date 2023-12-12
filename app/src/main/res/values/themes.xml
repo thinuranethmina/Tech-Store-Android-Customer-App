@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TechStore" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.TechStore" parent="Base.Theme.TechStore" />
+
+    <style name="Theme.TechStore.FullScreen" parent="Base.Theme.TechStore">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.TechStore.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tech_store</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.TechStore</item>
+    </style>
+
+</resources>

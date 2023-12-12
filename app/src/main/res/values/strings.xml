@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tech Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">76311085273-6qdo1tqqj97r5vhrqu4s3auaqire8ppk.apps.googleusercontent.com</string>
+</resources>
